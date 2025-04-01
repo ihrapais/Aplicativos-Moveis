@@ -1,0 +1,59 @@
+Integração com API ViaCEP e Formatação do Endereço
+Nesta etapa, você deverá adicionar ao projeto a funcionalidade de busca de endereço por CEP, utilizando a API ViaCEP
+(https://viacep.com.br/). Além disso, será necessário permitir que o usuário insira o número e complemento do
+endereço, garantindo a formatação correta.
+
+Integração com API ViaCEP e Formatação do Endereço
+Nesta etapa, você deverá adicionar ao projeto a funcionalidade de busca de endereço por CEP, utilizando
+a API ViaCEP. Além disso, será necessário permitir que o usuário insira o número e complemento do
+endereço, garantindo a formatação correta.
+1️⃣Implementar a Busca de Endereço pelo CEP
+•Criar um botão "Buscar CEP" que abrirá uma nova tela.
+•Nessa tela, o usuário digitará o CEP e, ao clicar no botão, o sistema buscará os dados na API ViaCEP.
+•A API retornará os seguintes dados, que serão preenchidos automaticamente:
+• Logradouro (Rua, Avenida, etc.)
+• Bairro
+• Cidade
+• Estado
+A API pode ser testada diretamente no navegador:
+https://viacep.com.br/
+
+2️⃣Permitir o Preenchimento do Número e Complemento
+•Criar campos para o usuário digitar manualmente o número e complemento (Apt, Bloco, etc.).
+•Se o usuário não preencher o complemento, ele não será incluído no endereço final.
+3️⃣Formatar o Endereço Corretamente
+•O endereço completo será formatado e enviado de volta para a tela de cadastro.
+•Se houver complemento, o formato será:
+Rua Exemplo, 123, Bloco A, Apt 202 - Centro, São Paulo – SP
+•Se não houver complemento, o formato será:
+ Rua Exemplo, 123 - Centro, São Paulo – SP
+
+Dica 01:
+•Utilize uma ‘AsyncTask’ para realizar a requisição HTTP e obter os dados do CEP.
+•O botão "Salvar Endereço" deve retornar o endereço completo para a tela principal do cadastro.
+•Ou
+Dica 02:
+•Utilize o ‘retrofit’ para realizar a requisição HTTP e obter os dados do CEP.
+•O botão "Salvar Endereço" deve retornar o endereço completo para a tela principal do cadastro.
+•OBS: cada dica é uma forma diferente possível de fazer o trabalho, leia sobre o assunto e escolha um modo apenas.
+
+– Etapa 01 – Lista de componentes:
+Etapa 2 – Integração com API ViaCEP e Formatação do Endereço
+•Button → "Buscar CEP" para abrir a tela de pesquisa de endereço.
+•EditText → Multi-line para exibir o endereço completo logo abaixo do botão "Buscar CEP".
+•EditText → Campo para o CEP digitado pelo usuário.
+•Button → "Buscar" para consultar o CEP na API.
+•EditText → Campos Logradouro, Bairro, Cidade e Estado preenchidos automaticamente.
+•EditText → Campo Número da Rua (digitado manualmente pelo usuário).
+•EditText → Campo Complemento (opcional, como "Bloco A, Apt 101").
+•Button → "Salvar Endereço" para enviar os dados para a tela principal.
+• Dicas: Verificar permissões no Android Manifest para o App usar a internet e adicionar a nova
+classe como uma activity.
+
+Observações:
+Não é necessário fazer funcionar o cadastro dos dados de endereço no banco de dados ainda.
+Hoje é apenas para fazer o desafio:
+a) Mostrar o endereço na tela de cadastro através da pesquisa do CEP, usando API ViaCep.
+Atenção: Apresentar até o final da aula para o professor. Se não funcionar 100% o professor irá avaliar e dar nota pelo
+o que foi realizado.
+Entregar o link do Github via atividade, para posterior avaliação.
