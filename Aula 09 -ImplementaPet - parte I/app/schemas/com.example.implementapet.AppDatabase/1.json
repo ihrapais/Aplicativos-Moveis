@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "271e9b1cb2210350938463ec775be808",
+    "entities": [
+      {
+        "tableName": "Pet",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`cpf` TEXT NOT NULL, `nome` TEXT, `telefone` TEXT, PRIMARY KEY(`cpf`))",
+        "fields": [
+          {
+            "fieldPath": "cpf",
+            "columnName": "cpf",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "telefone",
+            "columnName": "telefone",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "cpf"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '271e9b1cb2210350938463ec775be808')"
+    ]
+  }
+}
