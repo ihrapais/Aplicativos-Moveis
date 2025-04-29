@@ -1,6 +1,6 @@
 # SupermercadoApp
 
-SupermercadoApp é um aplicativo Android escrito em Java cujo objetivo é oferecer um CRUD simples para **gerenciamento de produtos de supermercado** em um banco de dados local (SQLite).
+SupermercadoApp é um aplicativo Android escrito em Java cujo objetivo é oferecer um API de CRUD simples para **gerenciamento de produtos de supermercado** em um banco de dados local (SQLite).
 
 ---
 
