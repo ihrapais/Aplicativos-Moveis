@@ -38,7 +38,7 @@ SupermercadoApp é um **aplicativo Android** escrito em Java (Android Studio) pa
 ### Pré-requisitos
 
 - Android Studio instalado  
-- Emulador configurado ou dispositivo físico conectado (p.ex. Pixel 8)
+- Dispositivo físico conectado ou Emulador configurado (Exemplo Pixel 8)
 
 ### Passos
 
