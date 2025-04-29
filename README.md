@@ -1,7 +1,7 @@
 # Aplicativos-Móveis
 
 Repositório com projetos e exercícios da disciplina de **Aplicativos Móveis** da UFN e experimentos relacionados. 
-(Normalmente utilizando Android Studio + Java)
+> Geralmente usando Android Studio + Java
 
 ---
 
