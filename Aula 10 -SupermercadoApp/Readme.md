@@ -1,7 +1,6 @@
 # SupermercadoApp
 
 SupermercadoApp é um **aplicativo Android** escrito em Java (Android Studio) para realizar um CRUD simples de produtos de supermercado em **SQLite**.  
-Testado e validado em um dispositivo Pixel 8.
 
 ---
 
