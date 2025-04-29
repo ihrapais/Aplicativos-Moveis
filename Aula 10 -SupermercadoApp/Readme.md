@@ -29,7 +29,7 @@ SupermercadoApp é um aplicativo Android escrito em Java cujo objetivo é oferec
 
 | Tela Principal               | Listagem de Produtos          | Cadastro de Produto                  |
 |:----------------------------:|:-----------------------------:|:-------------------------------------:|
-| ![Main](Aula%2010%20-SupermercadoApp/Screenshot_Main.png) | ![Listar](Aula%2010%20-SupermercadoApp/Print_Listar_Produtos.png) | ![Cadastro](Aula%2010%20-SupermercadoApp/Print_Cadastro_Creme_Dental.png) |
+| ![Main](/Aula%2010%20-SupermercadoApp/Screenshot_Main.png)) | ![Listar](Aula%2010%20-SupermercadoApp/Print_Listar_Produtos.png) | ![Cadastro](Aula%2010%20-SupermercadoApp/Print_Cadastro_Creme_Dental.png) |
 
 ---
 
