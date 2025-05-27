@@ -1,0 +1,40 @@
+name: cadastro_leitores_drift
+description: Um aplicativo para cadastro de leitores usando Flutter e Drift.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ajuste conforme sua versão do Dart/Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Drift (ORM para SQLite)
+  drift: ^2.15.0 # Verifique a última versão no pub.dev
+  sqlite3_flutter_libs: ^0.5.20 # Necessário para Android/iOS
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Provider para gerenciamento de estado simples e injeção de dependência
+  provider: ^6.1.2
+
+  # Para formatação de data
+  intl: ^0.19.0 # Verifique a última versão
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Ferramentas de build do Drift
+  drift_dev: ^2.15.0 # Deve corresponder à versão do drift
+  build_runner: ^2.4.8 # Verifique a última versão
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
