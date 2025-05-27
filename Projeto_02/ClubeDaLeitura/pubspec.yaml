@@ -1,0 +1,36 @@
+name: leitores
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  drift: ^2.13.0
+  sqlite3_flutter_libs: ^0.5.20
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+  path: ^1.9.0
+
+dev_dependencies:
+  drift_dev: ^2.13.0
+  build_runner: ^2.4.6
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
